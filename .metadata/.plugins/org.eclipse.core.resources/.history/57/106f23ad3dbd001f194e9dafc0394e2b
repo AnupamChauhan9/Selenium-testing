@@ -1,0 +1,26 @@
+package tests;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class EndToEnd {
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
+		driver.findElement(By.id("ctl00_mainContent_rbtnl_Trip_1")).click();
+		driver.findElement(By.id("ctl00_mainContent_ddl_originStation1")).click();
+		Select a = new Select(driver.findElement(By.id("ctl00_mainContent_ddl_originStation1")));
+		a.selectByIndex(3);
+		//ctl00_mainContent_ddl_destinationStation1
+		
+		driver.findElement(By.id("ctl00_mainContent_ddl_destinationStation1")).click();
+
+
+		//driver.findElement(By.cssSelector("li a[value='ATQ']")).click();
+		
+		
+	}
+
+}

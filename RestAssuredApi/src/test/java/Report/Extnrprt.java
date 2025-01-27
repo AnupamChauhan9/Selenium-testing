@@ -1,0 +1,29 @@
+package Report;import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.*;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+public class Extnrprt {
+	public static void main(String[] args) throws IOException {
+		ExtentReports extent = new ExtentReports();
+		ExtentSparkReporter spark = new ExtentSparkReporter("./reports/report.html");
+		extent.attachReporter(spark);
+		
+		//directly accesss file directly
+		String path = System.getProperty("user.dir")+"\\reports\\report.html";
+		//all test case create under extentreport
+//		ExtentTest test1 = extent.createTest("Test 1");
+//		test1.pass("This is pass");
+		ExtentTest test2 = extent.createTest("Test 2","this for screentest")
+				.info("this is log");
+		
+//		extent.createTest("test 3").log(Status.SKIP, "skip");
+		extent.flush();
+		Desktop.getDesktop().browse(new File("reports/report.html").toURI());
+		
+	}
+
+}

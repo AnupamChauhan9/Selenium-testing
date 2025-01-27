@@ -1,0 +1,42 @@
+package Selenium;
+
+import java.time.Duration;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class Alert_Frames {
+public static void main(String[] args) {
+	 
+	WebDriver driver=new ChromeDriver();
+	//WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(6));
+	//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	driver.get("https://the-internet.herokuapp.com/javascript_alerts");
+	driver.manage().window().maximize();
+	driver.findElement(By.cssSelector("button[onclick ='jsPrompt()']")).click();
+	Alert alert = driver.switchTo().alert();
+	System.out.println(alert.getText());
+	System.out.println(alert.getClass());
+	String name = "anupam";
+	alert.sendKeys(name);
+	alert.accept();
+	if(driver.findElement(By.cssSelector(".example>#result")).getText().equals("You entered: "+name)) {
+		System.out.println("maza aagya");
+	}
+	else {
+		System.out.println("bekar");
+	}
+	//using explicit wait
+	WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
+	driver.findElement(By.xpath("//button[normalize-space()='Click for JS Alert']")).click();
+	Alert al = wait.until(ExpectedConditions.alertIsPresent());
+	al.accept();
+	driver.close();
+	
+}
+}

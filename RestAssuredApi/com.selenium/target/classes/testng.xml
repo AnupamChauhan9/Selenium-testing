@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Testing">
+<listeners>
+<listener class-name="com.qa.mylisteners.MyListeners"/>
+</listeners>
+  <test  name="Automation">
+    <classes>
+      <class name="com.selenium.qa.tes.Login"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

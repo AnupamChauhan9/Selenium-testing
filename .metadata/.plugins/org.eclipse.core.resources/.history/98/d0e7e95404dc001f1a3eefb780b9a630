@@ -1,0 +1,5 @@
+<h2>Methods that were not run</h2><table>
+<tr><td>com.selenium.qa.tes.LoginTest.invalidCrede</td></tr>
+<tr><td>com.selenium.qa.tes.LoginTest.invalidEmailCrede</td></tr>
+<tr><td>com.selenium.qa.tes.LoginTest.invalidPasswordCrede</td></tr>
+</table>

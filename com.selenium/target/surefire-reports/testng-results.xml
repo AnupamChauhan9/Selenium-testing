@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-26T22:15:58 IST" name="Testing" finished-at="2025-01-26T22:16:38 IST" duration-ms="39713">
+    <groups>
+    </groups>
+    <test started-at="2025-01-26T22:15:58 IST" name="Automation" finished-at="2025-01-26T22:16:38 IST" duration-ms="39713">
+      <class name="com.selenium.qa.tes.LoginTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:com.selenium.qa.tes.LoginTest@26b3fd41]" started-at="2025-01-26T22:16:00 IST" name="setup" finished-at="2025-01-26T22:16:04 IST" duration-ms="4433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38f981b6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validCred(java.lang.String,java.lang.String)[pri:1, instance:com.selenium.qa.tes.LoginTest@26b3fd41]" started-at="2025-01-26T22:16:04 IST" name="validCred" data-provider="data" finished-at="2025-01-26T22:16:06 IST" duration-ms="1988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anupam9837@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCred -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.qa.tes.LoginTest@26b3fd41]" started-at="2025-01-26T22:16:06 IST" name="tearDown" finished-at="2025-01-26T22:16:07 IST" duration-ms="675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:com.selenium.qa.tes.LoginTest@26b3fd41]" started-at="2025-01-26T22:16:07 IST" name="setup" finished-at="2025-01-26T22:16:10 IST" duration-ms="3279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38f981b6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validCred(java.lang.String,java.lang.String)[pri:1, instance:com.selenium.qa.tes.LoginTest@26b3fd41]" started-at="2025-01-26T22:16:10 IST" name="validCred" data-provider="data" finished-at="2025-01-26T22:16:12 IST" duration-ms="1858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anupam983@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCred -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.qa.tes.LoginTest@26b3fd41]" started-at="2025-01-26T22:16:12 IST" name="tearDown" finished-at="2025-01-26T22:16:13 IST" duration-ms="570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:com.selenium.qa.tes.LoginTest@26b3fd41]" started-at="2025-01-26T22:16:13 IST" name="setup" finished-at="2025-01-26T22:16:17 IST" duration-ms="4359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38f981b6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validCred(java.lang.String,java.lang.String)[pri:1, instance:com.selenium.qa.tes.LoginTest@26b3fd41]" started-at="2025-01-26T22:16:17 IST" name="validCred" data-provider="data" finished-at="2025-01-26T22:16:19 IST" duration-ms="1859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anupam98@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCred -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.qa.tes.LoginTest@26b3fd41]" started-at="2025-01-26T22:16:19 IST" name="tearDown" finished-at="2025-01-26T22:16:19 IST" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:com.selenium.qa.tes.LoginTest@26b3fd41]" started-at="2025-01-26T22:16:19 IST" name="setup" finished-at="2025-01-26T22:16:23 IST" duration-ms="3180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38f981b6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidCrede()[pri:2, instance:com.selenium.qa.tes.LoginTest@26b3fd41]" started-at="2025-01-26T22:16:23 IST" name="invalidCrede" finished-at="2025-01-26T22:16:24 IST" duration-ms="1803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCrede -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.qa.tes.LoginTest@26b3fd41]" started-at="2025-01-26T22:16:24 IST" name="tearDown" finished-at="2025-01-26T22:16:25 IST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:com.selenium.qa.tes.LoginTest@26b3fd41]" started-at="2025-01-26T22:16:25 IST" name="setup" finished-at="2025-01-26T22:16:29 IST" duration-ms="4228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38f981b6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidPasswordCrede()[pri:3, instance:com.selenium.qa.tes.LoginTest@26b3fd41]" started-at="2025-01-26T22:16:29 IST" name="invalidPasswordCrede" finished-at="2025-01-26T22:16:31 IST" duration-ms="1944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordCrede -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.qa.tes.LoginTest@26b3fd41]" started-at="2025-01-26T22:16:31 IST" name="tearDown" finished-at="2025-01-26T22:16:32 IST" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:com.selenium.qa.tes.LoginTest@26b3fd41]" started-at="2025-01-26T22:16:32 IST" name="setup" finished-at="2025-01-26T22:16:35 IST" duration-ms="3236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38f981b6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidEmailCrede()[pri:4, instance:com.selenium.qa.tes.LoginTest@26b3fd41]" started-at="2025-01-26T22:16:35 IST" name="invalidEmailCrede" finished-at="2025-01-26T22:16:37 IST" duration-ms="1874" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Warning: No match for E-Mail Address and/or Password.> but was:<anupam>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Warning: No match for E-Mail Address and/or Password.> but was:<anupam>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at com.selenium.qa.tes.LoginTest.invalidEmailCrede(LoginTest.java:93)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailCrede -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.qa.tes.LoginTest@26b3fd41]" started-at="2025-01-26T22:16:37 IST" name="tearDown" finished-at="2025-01-26T22:16:38 IST" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.qa.tes.LoginTest -->
+    </test> <!-- Automation -->
+  </suite> <!-- Testing -->
+</testng-results>
