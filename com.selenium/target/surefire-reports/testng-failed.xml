@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Testing]" guice-stage="DEVELOPMENT" verbose="0">
+<suite thread-count="2" parallel="tests" name="Failed suite [Testing]" guice-stage="DEVELOPMENT" verbose="0">
   <listeners>
     <listener class-name="com.qa.mylisteners.MyListeners"/>
   </listeners>
-  <test thread-count="5" name="Automation(failed)" verbose="0">
+  <test thread-count="2" parallel="tests" name="Chrome TEST(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.selenium.qa.tes.LoginTest">
         <methods>
+          <include name="validCred"/>
+          <include name="invalidCrede"/>
           <include name="tearDown"/>
           <include name="invalidEmailCrede"/>
+          <include name="invalidPasswordCrede"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.selenium.qa.tes.LoginTest -->
     </classes>
-  </test> <!-- Automation(failed) -->
+  </test> <!-- Chrome TEST(failed) -->
 </suite> <!-- Failed suite [Testing] -->

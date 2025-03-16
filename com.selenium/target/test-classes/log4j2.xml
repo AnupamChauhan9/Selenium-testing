@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <!-- Console Appender configuration -->
+    <Appenders>
+        <!-- Console appender to print logs on console -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <Layout type="PatternLayout">
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level: %msg%n%throwable</Pattern>
+            </Layout>
+        </Console>
+
+        <!-- File appender to log into a file -->
+        <File name="File" fileName="${sys:user.dir}/test-output/app.log">
+            <Layout type="PatternLayout">
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level: %msg%n%throwable</Pattern>
+            </Layout>
+        </File>
+
+        <!-- Rolling File Appender to create a new file with timestamp and delete the previous one -->
+        <RollingFile name="RollingFile" fileName="${sys:user.dir}/test-output/app.log" filePattern="${sys:user.dir}/test-output/app-%d{yyyy-MM-dd_HH-mm-ss}.log">
+            <Layout type="PatternLayout">
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level: %msg%n%throwable</Pattern>
+            </Layout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+            <DefaultRolloverStrategy max="1"/>
+        </RollingFile>
+    </Appenders>
+
+    <!-- Loggers -->
+    <Loggers>
+        <!-- Console logger configuration -->
+        <Logger name="com.example" level="Info" additivity="false">
+            <AppenderRef ref="Console"/>
+        </Logger>
+
+        <!-- Root logger configuration -->
+        <Root level="Info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+            <AppenderRef ref="RollingFile"/>
+        </Root>
+    </Loggers>
+</Configuration>
